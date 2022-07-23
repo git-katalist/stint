@@ -1,0 +1,1019 @@
+Info 0    [19:45:24.517] Starting TS Server
+Info 1    [19:45:24.517] Version: 4.7.4
+Info 2    [19:45:24.517] Arguments: /usr/bin/node /home/tsotetsi/Desktop/stint/node_modules/typescript/lib/tsserver.js --logFile /home/tsotetsi/Desktop/stint/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/b3128a503924f1786d8bb936c1147c63/tscancellation*
+Info 3    [19:45:24.517] Platform: linux NodeVersion: 18 CaseSensitive: true
+Info 4    [19:45:24.517] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [19:45:24.527] Format host information updated
+Info 6    [19:45:24.533] Search path: /home/tsotetsi/Desktop/stint
+Info 7    [19:45:24.534] For info: /home/tsotetsi/Desktop/stint/env-config.js :: Config file name: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 8    [19:45:24.534] Creating configuration project /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 9    [19:45:24.547] Config: /home/tsotetsi/Desktop/stint/jsconfig.json : {
+ "rootNames": [
+  "/home/tsotetsi/Desktop/stint/env-config.js",
+  "/home/tsotetsi/Desktop/stint/next.config.js",
+  "/home/tsotetsi/Desktop/stint/pages/_app.js",
+  "/home/tsotetsi/Desktop/stint/pages/_document.js",
+  "/home/tsotetsi/Desktop/stint/pages/index.js",
+  "/home/tsotetsi/Desktop/stint/pages/api/hello.js",
+  "/home/tsotetsi/Desktop/stint/styles/Global.js",
+  "/home/tsotetsi/Desktop/stint/styles/Theme.js"
+ ],
+ "options": {
+  "allowJs": true,
+  "maxNodeModuleJsDepth": 2,
+  "allowSyntheticDefaultImports": true,
+  "skipLibCheck": true,
+  "noEmit": true,
+  "baseUrl": "/home/tsotetsi/Desktop/stint",
+  "paths": {
+   "@Components/*": [
+    "./components/*"
+   ],
+   "Recipes/*": [
+    "./pages/noodles/recipes/*"
+   ],
+   "Styles/*": [
+    "./Styles/*"
+   ]
+  },
+  "pathsBasePath": "/home/tsotetsi/Desktop/stint",
+  "configFilePath": "/home/tsotetsi/Desktop/stint/jsconfig.json"
+ }
+}
+Info 10   [19:45:24.630] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 11   [19:45:25.606] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 975.6659869998693ms
+Info 12   [19:45:25.606] Project '/home/tsotetsi/Desktop/stint/jsconfig.json' (Configured)
+Info 13   [19:45:25.606] 	Files (191)
+
+Info 14   [19:45:25.606] -----------------------------------------------
+Info 15   [19:45:25.613] AutoImportProviderProject: found 1 root files in 1 dependencies in 5.173822000622749 ms
+Info 16   [19:45:25.613] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 17   [19:45:25.618] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 4.6724909991025925ms
+Info 18   [19:45:25.618] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 19   [19:45:25.618] 	Files (6)
+
+Info 20   [19:45:25.618] -----------------------------------------------
+Info 21   [19:45:26.187] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 22   [19:45:26.260] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 73.4862040001899ms
+Info 23   [19:45:26.260] Project '/home/tsotetsi/Desktop/stint/jsconfig.json' (Configured)
+Info 24   [19:45:26.260] 	Files (197)
+
+Info 25   [19:45:26.260] -----------------------------------------------
+Info 26   [19:45:26.260] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 27   [19:45:26.260] 	Files (6)
+
+Info 28   [19:45:26.260] -----------------------------------------------
+Info 29   [19:45:26.648] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.log/ti-290658.log 0:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 30   [19:45:26.649] Project: /home/tsotetsi/Desktop/stint/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Desktop/stint/.log/ti-290658.log
+Info 31   [19:45:26.650] Elapsed:: 1.1210839990526438ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.log/ti-290658.log 0:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 32   [19:45:28.436] Before ensureProjectForOpenFiles:
+Info 33   [19:45:28.436] After ensureProjectForOpenFiles:
+Info 34   [19:45:28.436] got projects updated in background, updating diagnostics for /home/tsotetsi/Desktop/stint/env-config.js
+Info 35   [19:45:34.935] Search path: /home/tsotetsi/Desktop/stint
+Info 36   [19:45:34.935] For info: /home/tsotetsi/Desktop/stint/next.config.js :: Config file name: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 37   [19:45:45.052] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 38   [19:45:45.080] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 27.610979998484254ms
+Info 39   [19:45:45.080] Different program with same set of files
+Info 40   [19:45:45.376] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 41   [19:45:45.391] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 14.1001589987427ms
+Info 42   [19:45:45.391] Different program with same set of files
+Info 43   [19:45:45.756] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 44   [19:45:45.765] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 9.095302000641823ms
+Info 45   [19:45:45.765] Different program with same set of files
+Info 46   [19:45:46.645] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 47   [19:45:46.656] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 10.708620000630617ms
+Info 48   [19:45:46.656] Different program with same set of files
+Info 49   [19:45:46.876] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 50   [19:45:46.896] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 19.202419999986887ms
+Info 51   [19:45:46.896] Different program with same set of files
+Info 52   [19:45:47.651] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 53   [19:45:47.670] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 18.985847998410463ms
+Info 54   [19:45:47.670] Different program with same set of files
+Info 55   [19:45:48.308] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 56   [19:45:48.326] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 17.852247999981046ms
+Info 57   [19:45:48.326] Different program with same set of files
+Info 58   [19:46:32.086] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 59   [19:46:32.096] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 10.177850000560284ms
+Info 60   [19:46:32.096] Different program with same set of files
+Info 61   [19:46:33.985] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 62   [19:46:33.999] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 13.556025000289083ms
+Info 63   [19:46:33.999] Different program with same set of files
+Info 64   [19:46:42.453] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 65   [19:46:42.473] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 20.147005999460816ms
+Info 66   [19:46:42.473] Different program with same set of files
+Info 67   [19:46:50.792] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 68   [19:46:50.824] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 13 structureChanged: true structureIsReused:: SafeModules Elapsed: 31.805809000506997ms
+Info 69   [19:46:50.824] Different program with same set of files
+Info 70   [19:47:13.017] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 71   [19:47:13.028] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 10.686729000881314ms
+Info 72   [19:47:13.028] Different program with same set of files
+Info 73   [19:47:13.312] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 74   [19:47:13.332] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 19.449245998635888ms
+Info 75   [19:47:13.332] Different program with same set of files
+Info 76   [19:47:14.219] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 77   [19:47:14.240] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 16 structureChanged: false structureIsReused:: Completely Elapsed: 21.030926000326872ms
+Info 78   [19:47:14.240] Different program with same set of files
+Info 79   [19:47:14.516] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 80   [19:47:14.534] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 17.539510998874903ms
+Info 81   [19:47:14.534] Different program with same set of files
+Info 82   [19:47:15.084] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 83   [19:47:15.104] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 20.114488000050187ms
+Info 84   [19:47:15.104] Different program with same set of files
+Info 85   [19:47:15.393] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 86   [19:47:15.406] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 13.193321999162436ms
+Info 87   [19:47:15.406] Different program with same set of files
+Info 88   [19:47:15.705] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 89   [19:47:15.720] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 20 structureChanged: false structureIsReused:: Completely Elapsed: 14.485740998759866ms
+Info 90   [19:47:15.720] Different program with same set of files
+Info 91   [19:49:38.623] FileWatcher:: Triggered with /home/tsotetsi/Desktop/stint/package.json 1:: WatchInfo: /home/tsotetsi/Desktop/stint/package.json 250 undefined WatchType: package.json file
+Info 92   [19:49:38.624] Elapsed:: 1.0454629994928837ms FileWatcher:: Triggered with /home/tsotetsi/Desktop/stint/package.json 1:: WatchInfo: /home/tsotetsi/Desktop/stint/package.json 250 undefined WatchType: package.json file
+Info 93   [19:49:43.633] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 94   [19:49:43.648] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 21 structureChanged: false structureIsReused:: Completely Elapsed: 14.823777999728918ms
+Info 95   [19:49:43.648] Different program with same set of files
+Info 96   [19:49:44.469] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 97   [19:49:44.480] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 22 structureChanged: false structureIsReused:: Completely Elapsed: 10.669720999896526ms
+Info 98   [19:49:44.480] Different program with same set of files
+Info 99   [19:49:44.484] getCompletionData: Get current token: 0.008824000135064125
+Info 100  [19:49:44.485] getCompletionData: Is inside comment: 0.020066000521183014
+Info 101  [19:49:44.485] getCompletionData: Get previous token: 0.027177998796105385
+Info 102  [19:49:44.485] getCompletionsAtPosition: isCompletionListBlocker: 0.20655000023543835
+Info 103  [19:49:44.502] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 104  [19:49:44.506] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 3.5953189991414547ms
+Info 105  [19:49:44.506] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 106  [19:49:44.506] 	Files (0)
+
+Info 107  [19:49:44.506] -----------------------------------------------
+Info 108  [19:49:44.506] getExportInfoMap: cache miss or empty; calculating new results
+Info 109  [19:49:44.546] getExportInfoMap: done in 57.16865500062704 ms
+Info 110  [19:49:44.557] collectAutoImports: resolved 5 module specifiers, plus 0 ambient and 0 from cache
+Info 111  [19:49:44.557] collectAutoImports: response is complete
+Info 112  [19:49:44.557] collectAutoImports: 11.027822000905871
+Info 113  [19:49:44.557] getCompletionData: Semantic work: 72.24664000049233
+Info 114  [19:49:44.575] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 17.89867800101638
+Info 115  [19:49:45.525] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 116  [19:49:45.537] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 23 structureChanged: false structureIsReused:: Completely Elapsed: 12.202135998755693ms
+Info 117  [19:49:45.537] Different program with same set of files
+Info 118  [19:49:47.938] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 119  [19:49:47.948] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 24 structureChanged: false structureIsReused:: Completely Elapsed: 9.859952000901103ms
+Info 120  [19:49:47.948] Different program with same set of files
+Info 121  [19:50:04.778] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 122  [19:50:04.779] Elapsed:: 1.0643240008503199ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 123  [19:50:04.792] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/development :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 124  [19:50:04.793] Elapsed:: 0.17307399958372116ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/development :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 125  [19:50:04.793] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/webpack :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 126  [19:50:04.793] Elapsed:: 0.09401199966669083ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/webpack :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 127  [19:50:04.793] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 128  [19:50:04.794] Elapsed:: 0.09169399924576283ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 129  [19:50:04.795] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 130  [19:50:04.795] Elapsed:: 0.09133999980986118ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 131  [19:50:04.795] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 132  [19:50:04.795] Elapsed:: 0.07148700021207333ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 133  [19:50:04.796] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 134  [19:50:04.796] Elapsed:: 0.10164600051939487ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 135  [19:50:05.048] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 136  [19:50:05.048] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 25 structureChanged: false structureIsReused:: Completely Elapsed: 0.5068670008331537ms
+Info 137  [19:50:07.296] Before ensureProjectForOpenFiles:
+Info 138  [19:50:07.296] After ensureProjectForOpenFiles:
+Info 139  [19:50:07.296] got projects updated in background, updating diagnostics for /home/tsotetsi/Desktop/stint/env-config.js,/home/tsotetsi/Desktop/stint/next.config.js
+Info 140  [19:50:07.429] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 141  [19:50:07.429] Elapsed:: 0.08939399942755699ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 142  [19:50:07.501] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 143  [19:50:07.502] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 0.5087939985096455ms
+Info 144  [19:50:09.929] Before ensureProjectForOpenFiles:
+Info 145  [19:50:09.929] After ensureProjectForOpenFiles:
+Info 146  [19:50:09.929] got projects updated in background, updating diagnostics for /home/tsotetsi/Desktop/stint/env-config.js,/home/tsotetsi/Desktop/stint/next.config.js
+Info 147  [19:50:11.419] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 148  [19:50:11.419] Elapsed:: 0.11501700058579445ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 149  [19:50:11.670] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 150  [19:50:11.671] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 0.2842690013349056ms
+Info 151  [19:50:13.460] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/next-server.js.nft.json 0:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 152  [19:50:13.461] Project: /home/tsotetsi/Desktop/stint/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Desktop/stint/.next/next-server.js.nft.json
+Info 153  [19:50:13.461] Elapsed:: 0.3873319998383522ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/next-server.js.nft.json 0:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 154  [19:50:13.461] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/BUILD_ID 1:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 155  [19:50:13.461] Elapsed:: 0.18993199989199638ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/BUILD_ID 1:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 156  [19:50:13.461] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/required-server-files.json 2:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 157  [19:50:13.461] Project: /home/tsotetsi/Desktop/stint/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Desktop/stint/.next/required-server-files.json
+Info 158  [19:50:13.461] Elapsed:: 0.09744199924170971ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/required-server-files.json 2:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 159  [19:50:13.461] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/export 3:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 160  [19:50:13.461] Elapsed:: 0.3018660005182028ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/export 3:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 161  [19:50:13.461] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/export-detail.json 4:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 162  [19:50:13.462] Project: /home/tsotetsi/Desktop/stint/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Desktop/stint/.next/export-detail.json
+Info 163  [19:50:13.462] Elapsed:: 0.10762099921703339ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/export-detail.json 4:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 164  [19:50:13.462] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/export 5:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 165  [19:50:13.462] Elapsed:: 0.09380700066685677ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/export 5:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 166  [19:50:13.462] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/prerender-manifest.json 6:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 167  [19:50:13.462] Project: /home/tsotetsi/Desktop/stint/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Desktop/stint/.next/prerender-manifest.json
+Info 168  [19:50:13.462] Elapsed:: 0.0504199992865324ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/prerender-manifest.json 6:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 169  [19:50:13.462] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/images-manifest.json 7:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 170  [19:50:13.462] Project: /home/tsotetsi/Desktop/stint/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Desktop/stint/.next/images-manifest.json
+Info 171  [19:50:13.462] Elapsed:: 0.042138999328017235ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/images-manifest.json 7:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 172  [19:50:13.462] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/export-marker.json 8:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 173  [19:50:13.462] Project: /home/tsotetsi/Desktop/stint/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Desktop/stint/.next/export-marker.json
+Info 174  [19:50:13.462] Elapsed:: 0.04139900021255016ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/export-marker.json 8:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 175  [19:50:13.462] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/export-detail.json 9:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 176  [19:50:13.462] Project: /home/tsotetsi/Desktop/stint/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Desktop/stint/.next/export-detail.json
+Info 177  [19:50:13.462] Elapsed:: 0.04111799970269203ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/export-detail.json 9:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 178  [19:50:13.462] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/cache/next-server.js.nft.json 10:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 179  [19:50:13.462] Project: /home/tsotetsi/Desktop/stint/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Desktop/stint/.next/cache/next-server.js.nft.json
+Info 180  [19:50:13.462] Elapsed:: 0.04166700132191181ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/cache/next-server.js.nft.json 10:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 181  [19:50:13.462] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages/index.js 11:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 182  [19:50:13.462] Elapsed:: 0.24441500008106232ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages/index.js 11:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 183  [19:50:13.462] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages/404.html 12:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 184  [19:50:13.463] Project: /home/tsotetsi/Desktop/stint/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Desktop/stint/.next/server/pages/404.html
+Info 185  [19:50:13.463] Elapsed:: 0.21839400008320808ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages/404.html 12:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 186  [19:50:13.463] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages/500.html 13:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 187  [19:50:13.463] Project: /home/tsotetsi/Desktop/stint/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Desktop/stint/.next/server/pages/500.html
+Info 188  [19:50:13.463] Elapsed:: 0.07671299949288368ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages/500.html 13:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 189  [19:50:13.463] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages/index.html 14:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 190  [19:50:13.463] Project: /home/tsotetsi/Desktop/stint/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Desktop/stint/.next/server/pages/index.html
+Info 191  [19:50:13.463] Elapsed:: 0.04321100004017353ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages/index.html 14:: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 192  [19:50:13.713] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 193  [19:50:13.714] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 28 structureChanged: false structureIsReused:: Completely Elapsed: 0.2803239990025759ms
+Info 194  [19:50:13.834] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/out :: WatchInfo: /home/tsotetsi/Desktop/stint 0 undefined Project: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Failed Lookup Locations
+Info 195  [19:50:13.834] Elapsed:: 0.19064799882471561ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/out :: WatchInfo: /home/tsotetsi/Desktop/stint 0 undefined Project: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Failed Lookup Locations
+Info 196  [19:50:14.837] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 197  [19:50:14.837] Elapsed:: 0.12478299997746944ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 198  [19:50:15.093] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 199  [19:50:15.595] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 29 structureChanged: true structureIsReused:: Not Elapsed: 502.0657970011234ms
+Info 200  [19:50:15.595] Project '/home/tsotetsi/Desktop/stint/jsconfig.json' (Configured)
+Info 201  [19:50:15.595] 	Files (207)
+
+Info 202  [19:50:15.595] -----------------------------------------------
+Info 203  [19:50:17.337] Before ensureProjectForOpenFiles:
+Info 204  [19:50:17.337] After ensureProjectForOpenFiles:
+Info 205  [19:50:17.337] got projects updated in background, updating diagnostics for /home/tsotetsi/Desktop/stint/env-config.js,/home/tsotetsi/Desktop/stint/next.config.js
+Info 206  [19:51:32.167] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 207  [19:51:32.167] Elapsed:: 0.17161399871110916ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 208  [19:51:32.169] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/jylfI4o3oKuH5RhBlBAV8 :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 209  [19:51:32.169] Elapsed:: 0.13407200016081333ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/jylfI4o3oKuH5RhBlBAV8 :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 210  [19:51:32.170] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages/api :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 211  [19:51:32.170] Elapsed:: 0.07421199977397919ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages/api :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 212  [19:51:32.170] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 213  [19:51:32.170] Elapsed:: 0.06592399999499321ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 214  [19:51:32.171] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 215  [19:51:32.171] Elapsed:: 0.0712059997022152ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 216  [19:51:32.172] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 217  [19:51:32.172] Elapsed:: 0.2550830002874136ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 218  [19:51:32.173] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 219  [19:51:32.173] Elapsed:: 0.09394999966025352ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 220  [19:51:32.173] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 221  [19:51:32.173] Elapsed:: 0.052424000576138496ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 222  [19:51:32.173] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 223  [19:51:32.173] Elapsed:: 0.04183200001716614ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 224  [19:51:32.174] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 225  [19:51:32.174] Elapsed:: 0.046858999878168106ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 226  [19:51:32.425] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 227  [19:51:32.426] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 30 structureChanged: false structureIsReused:: Not Elapsed: 0.665293000638485ms
+Info 228  [19:51:34.673] Before ensureProjectForOpenFiles:
+Info 229  [19:51:34.674] After ensureProjectForOpenFiles:
+Info 230  [19:51:34.674] got projects updated in background, updating diagnostics for /home/tsotetsi/Desktop/stint/env-config.js,/home/tsotetsi/Desktop/stint/next.config.js
+Info 231  [19:51:35.825] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 232  [19:51:35.826] Elapsed:: 0.11090500093996525ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 233  [19:51:36.085] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 234  [19:51:36.085] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 31 structureChanged: false structureIsReused:: Not Elapsed: 0.8019639998674393ms
+Info 235  [19:51:38.326] Before ensureProjectForOpenFiles:
+Info 236  [19:51:38.326] After ensureProjectForOpenFiles:
+Info 237  [19:51:38.327] got projects updated in background, updating diagnostics for /home/tsotetsi/Desktop/stint/env-config.js,/home/tsotetsi/Desktop/stint/next.config.js
+Info 238  [19:52:14.677] FileWatcher:: Triggered with /home/tsotetsi/Desktop/stint/package.json 1:: WatchInfo: /home/tsotetsi/Desktop/stint/package.json 250 undefined WatchType: package.json file
+Info 239  [19:52:14.678] Elapsed:: 0.6189079992473125ms FileWatcher:: Triggered with /home/tsotetsi/Desktop/stint/package.json 1:: WatchInfo: /home/tsotetsi/Desktop/stint/package.json 250 undefined WatchType: package.json file
+Info 240  [19:52:19.964] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 241  [19:52:19.964] Elapsed:: 0.13509999960660934ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 242  [19:52:19.965] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/i_7d4njDyaiRd0EWs7hDa :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 243  [19:52:19.965] Elapsed:: 0.07810499891638756ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/i_7d4njDyaiRd0EWs7hDa :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 244  [19:52:19.966] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages/api :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 245  [19:52:19.966] Elapsed:: 0.07507199980318546ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages/api :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 246  [19:52:19.966] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 247  [19:52:19.966] Elapsed:: 0.05135300010442734ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 248  [19:52:19.966] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 249  [19:52:19.967] Elapsed:: 0.06096299923956394ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 250  [19:52:19.967] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 251  [19:52:19.967] Elapsed:: 0.06948000006377697ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 252  [19:52:19.967] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 253  [19:52:19.967] Elapsed:: 0.05955899879336357ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 254  [19:52:19.968] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 255  [19:52:19.968] Elapsed:: 0.08414699882268906ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 256  [19:52:19.969] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 257  [19:52:19.969] Elapsed:: 0.04518199898302555ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 258  [19:52:20.219] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 259  [19:52:20.219] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 32 structureChanged: false structureIsReused:: Not Elapsed: 0.3220809996128082ms
+Info 260  [19:52:22.469] Before ensureProjectForOpenFiles:
+Info 261  [19:52:22.469] After ensureProjectForOpenFiles:
+Info 262  [19:52:22.470] got projects updated in background, updating diagnostics for /home/tsotetsi/Desktop/stint/env-config.js,/home/tsotetsi/Desktop/stint/next.config.js
+Info 263  [19:52:22.838] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 264  [19:52:22.838] Elapsed:: 0.10264099948108196ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 265  [19:52:23.090] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 266  [19:52:23.090] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 33 structureChanged: false structureIsReused:: Not Elapsed: 0.32502200081944466ms
+Info 267  [19:52:25.338] Before ensureProjectForOpenFiles:
+Info 268  [19:52:25.339] After ensureProjectForOpenFiles:
+Info 269  [19:52:25.340] got projects updated in background, updating diagnostics for /home/tsotetsi/Desktop/stint/env-config.js,/home/tsotetsi/Desktop/stint/next.config.js
+Info 270  [19:53:12.702] FileWatcher:: Triggered with /home/tsotetsi/Desktop/stint/package.json 1:: WatchInfo: /home/tsotetsi/Desktop/stint/package.json 250 undefined WatchType: package.json file
+Info 271  [19:53:12.703] Elapsed:: 0.30188499949872494ms FileWatcher:: Triggered with /home/tsotetsi/Desktop/stint/package.json 1:: WatchInfo: /home/tsotetsi/Desktop/stint/package.json 250 undefined WatchType: package.json file
+Info 272  [19:53:16.316] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 273  [19:53:16.316] Elapsed:: 0.12453999929130077ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 274  [19:53:16.316] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/RVxETHftRftbrokAWgCmO :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 275  [19:53:16.317] Elapsed:: 0.08796000108122826ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/RVxETHftRftbrokAWgCmO :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 276  [19:53:16.317] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks/pages/_app-b91252a19d4bde3d.js :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 277  [19:53:16.317] Elapsed:: 0.09428500011563301ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks/pages/_app-b91252a19d4bde3d.js :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 278  [19:53:16.317] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks/pages/_error-b53b8f599aff85eb.js :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 279  [19:53:16.317] Elapsed:: 0.26786400005221367ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks/pages/_error-b53b8f599aff85eb.js :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 280  [19:53:16.317] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks/pages/index-13c79716836d77d4.js :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 281  [19:53:16.318] Elapsed:: 0.0536470003426075ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks/pages/index-13c79716836d77d4.js :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 282  [19:53:16.318] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages/api :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 283  [19:53:16.318] Elapsed:: 0.03786199912428856ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages/api :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 284  [19:53:16.318] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages/api :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 285  [19:53:16.318] Elapsed:: 0.04708799906075001ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages/api :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 286  [19:53:16.318] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 287  [19:53:16.318] Elapsed:: 0.04810599982738495ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 288  [19:53:16.318] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 289  [19:53:16.318] Elapsed:: 0.04314599931240082ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 290  [19:53:16.318] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 291  [19:53:16.318] Elapsed:: 0.038958000019192696ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 292  [19:53:16.318] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 293  [19:53:16.318] Elapsed:: 0.046817000955343246ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 294  [19:53:16.319] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 295  [19:53:16.319] Elapsed:: 0.04678100161254406ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 296  [19:53:16.319] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 297  [19:53:16.319] Elapsed:: 0.046167001128196716ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 298  [19:53:16.319] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 299  [19:53:16.319] Elapsed:: 0.046772999688982964ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 300  [19:53:16.319] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 301  [19:53:16.319] Elapsed:: 0.045865001156926155ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 302  [19:53:16.571] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 303  [19:53:16.571] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 34 structureChanged: false structureIsReused:: Not Elapsed: 0.3222699984908104ms
+Info 304  [19:53:18.820] Before ensureProjectForOpenFiles:
+Info 305  [19:53:18.820] After ensureProjectForOpenFiles:
+Info 306  [19:53:18.820] got projects updated in background, updating diagnostics for /home/tsotetsi/Desktop/stint/env-config.js,/home/tsotetsi/Desktop/stint/next.config.js
+Info 307  [19:53:19.150] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 308  [19:53:19.150] Elapsed:: 0.1567819993942976ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 309  [19:53:19.404] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 310  [19:53:19.405] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 35 structureChanged: false structureIsReused:: Not Elapsed: 0.9088499993085861ms
+Info 311  [19:53:21.650] Before ensureProjectForOpenFiles:
+Info 312  [19:53:21.650] After ensureProjectForOpenFiles:
+Info 313  [19:53:21.650] got projects updated in background, updating diagnostics for /home/tsotetsi/Desktop/stint/env-config.js,/home/tsotetsi/Desktop/stint/next.config.js
+Info 314  [19:56:07.403] Search path: /home/tsotetsi/Desktop/stint/pages
+Info 315  [19:56:07.404] For info: /home/tsotetsi/Desktop/stint/pages/index.js :: Config file name: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 316  [19:57:19.578] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 317  [19:57:19.598] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 36 structureChanged: false structureIsReused:: Completely Elapsed: 19.14337900094688ms
+Info 318  [19:57:19.598] Different program with same set of files
+Info 319  [19:57:22.913] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 320  [19:57:22.924] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 37 structureChanged: false structureIsReused:: Completely Elapsed: 11.132624000310898ms
+Info 321  [19:57:22.924] Different program with same set of files
+Info 322  [19:57:25.207] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 323  [19:57:25.224] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 38 structureChanged: false structureIsReused:: Completely Elapsed: 17.516632998362184ms
+Info 324  [19:57:25.226] Different program with same set of files
+Info 325  [19:57:25.229] getCompletionData: Get current token: 0.015094999223947525
+Info 326  [19:57:25.229] getCompletionData: Is inside comment: 0.006129000335931778
+Info 327  [19:57:25.229] getCompletionData: Get previous token: 0.05522000044584274
+Info 328  [19:57:25.229] getCompletionsAtPosition: isCompletionListBlocker: 0.008319001644849777
+Info 329  [19:57:25.241] getExportInfoMap: cache miss or empty; calculating new results
+Info 330  [19:57:25.283] getExportInfoMap: done in 47.54908600077033 ms
+Info 331  [19:57:25.292] collectAutoImports: resolved 6 module specifiers, plus 0 ambient and 3 from cache
+Info 332  [19:57:25.292] collectAutoImports: response is complete
+Info 333  [19:57:25.292] collectAutoImports: 8.30794999934733
+Info 334  [19:57:25.292] getCompletionData: Semantic work: 62.70844599977136
+Info 335  [19:57:25.319] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.927717000246048
+Info 336  [19:57:25.321] getCompletionData: Get current token: 0.014567000791430473
+Info 337  [19:57:25.321] getCompletionData: Is inside comment: 0.0031679999083280563
+Info 338  [19:57:25.321] getCompletionData: Get previous token: 0.04076400026679039
+Info 339  [19:57:25.321] getCompletionsAtPosition: isCompletionListBlocker: 0.006322000175714493
+Info 340  [19:57:25.325] getExportInfoMap: cache hit
+Info 341  [19:57:25.330] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 9 from cache
+Info 342  [19:57:25.330] collectAutoImports: response is complete
+Info 343  [19:57:25.330] collectAutoImports: 4.788391999900341
+Info 344  [19:57:25.330] getCompletionData: Semantic work: 9.127965999767184
+Info 345  [19:57:25.377] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 45.74812800064683
+Info 346  [19:57:25.379] getCompletionData: Get current token: 0.00867299921810627
+Info 347  [19:57:25.379] getCompletionData: Is inside comment: 0.004699999466538429
+Info 348  [19:57:25.379] getCompletionData: Get previous token: 0.028905000537633896
+Info 349  [19:57:25.379] getCompletionsAtPosition: isCompletionListBlocker: 0.004698999226093292
+Info 350  [19:57:25.384] getExportInfoMap: cache hit
+Info 351  [19:57:25.388] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 9 from cache
+Info 352  [19:57:25.388] collectAutoImports: response is complete
+Info 353  [19:57:25.388] collectAutoImports: 3.9094479996711016
+Info 354  [19:57:25.388] getCompletionData: Semantic work: 8.763692999258637
+Info 355  [19:57:25.408] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 16.71458699926734
+Info 356  [19:57:25.413] getCompletionData: Get current token: 0.012051001191139221
+Info 357  [19:57:25.413] getCompletionData: Is inside comment: 0.004063999280333519
+Info 358  [19:57:25.413] getCompletionData: Get previous token: 0.038530999794602394
+Info 359  [19:57:25.413] getCompletionsAtPosition: isCompletionListBlocker: 0.005070000886917114
+Info 360  [19:57:25.416] getExportInfoMap: cache hit
+Info 361  [19:57:25.418] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 9 from cache
+Info 362  [19:57:25.418] collectAutoImports: response is complete
+Info 363  [19:57:25.418] collectAutoImports: 1.8732910007238388
+Info 364  [19:57:25.418] getCompletionData: Semantic work: 4.620082000270486
+Info 365  [19:57:25.426] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.785670999437571
+Info 366  [19:57:25.491] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 367  [19:57:25.498] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 39 structureChanged: false structureIsReused:: Completely Elapsed: 6.68231699988246ms
+Info 368  [19:57:25.498] Different program with same set of files
+Info 369  [19:57:25.498] getCompletionData: Get current token: 0.007434999570250511
+Info 370  [19:57:25.498] getCompletionData: Is inside comment: 0.001985998824238777
+Info 371  [19:57:25.498] getCompletionData: Get previous token: 0.03040899895131588
+Info 372  [19:57:25.498] getCompletionsAtPosition: isCompletionListBlocker: 0.004975000396370888
+Info 373  [19:57:25.504] getExportInfoMap: cache hit
+Info 374  [19:57:25.507] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 375  [19:57:25.507] collectAutoImports: response is complete
+Info 376  [19:57:25.507] collectAutoImports: 3.1615859996527433
+Info 377  [19:57:25.507] getCompletionData: Semantic work: 9.505184000357985
+Info 378  [19:57:25.577] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 18.583323998376727
+Info 379  [19:57:26.916] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 380  [19:57:26.926] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 40 structureChanged: false structureIsReused:: Completely Elapsed: 9.368820998817682ms
+Info 381  [19:57:26.926] Different program with same set of files
+Info 382  [19:57:28.560] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 383  [19:57:28.579] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 41 structureChanged: false structureIsReused:: Completely Elapsed: 18.75232000090182ms
+Info 384  [19:57:28.579] Different program with same set of files
+Info 385  [19:57:30.114] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 386  [19:57:30.119] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 42 structureChanged: false structureIsReused:: Completely Elapsed: 5.290514001622796ms
+Info 387  [19:57:30.120] Different program with same set of files
+Info 388  [19:57:30.973] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 389  [19:57:30.985] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 43 structureChanged: false structureIsReused:: Completely Elapsed: 11.99291600100696ms
+Info 390  [19:57:30.985] Different program with same set of files
+Info 391  [19:57:35.443] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 392  [19:57:35.452] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 44 structureChanged: false structureIsReused:: Completely Elapsed: 8.76974599994719ms
+Info 393  [19:57:35.452] Different program with same set of files
+Info 394  [19:57:40.356] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 395  [19:57:40.364] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 45 structureChanged: false structureIsReused:: Completely Elapsed: 8.19819699972868ms
+Info 396  [19:57:40.364] Different program with same set of files
+Info 397  [19:57:40.651] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 398  [19:57:40.664] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 46 structureChanged: false structureIsReused:: Completely Elapsed: 12.559411998838186ms
+Info 399  [19:57:40.664] Different program with same set of files
+Info 400  [19:57:40.666] getCompletionData: Get current token: 0.03931700065732002
+Info 401  [19:57:40.666] getCompletionData: Is inside comment: 0.007640998810529709
+Info 402  [19:57:40.666] getCompletionData: Get previous token: 0.20986900106072426
+Info 403  [19:57:40.667] getCompletionsAtPosition: isCompletionListBlocker: 0.01948999986052513
+Info 404  [19:57:40.676] getExportInfoMap: cache hit
+Info 405  [19:57:40.680] collectAutoImports: resolved 6 module specifiers, plus 0 ambient and 7 from cache
+Info 406  [19:57:40.680] collectAutoImports: response is complete
+Info 407  [19:57:40.680] collectAutoImports: 3.17408199980855
+Info 408  [19:57:40.680] getCompletionData: Semantic work: 12.853589998558164
+Info 409  [19:57:40.720] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.63566100038588
+Info 410  [19:57:41.120] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 411  [19:57:41.128] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 47 structureChanged: false structureIsReused:: Completely Elapsed: 7.88816399872303ms
+Info 412  [19:57:41.128] Different program with same set of files
+Info 413  [19:57:42.639] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 414  [19:57:42.656] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 48 structureChanged: false structureIsReused:: Completely Elapsed: 17.104691999033093ms
+Info 415  [19:57:42.656] Different program with same set of files
+Info 416  [19:57:42.963] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 417  [19:57:42.978] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 49 structureChanged: false structureIsReused:: Completely Elapsed: 14.719908000901341ms
+Info 418  [19:57:42.978] Different program with same set of files
+Info 419  [19:57:42.980] getCompletionData: Get current token: 0.032993000000715256
+Info 420  [19:57:42.980] getCompletionData: Is inside comment: 0.00985799916088581
+Info 421  [19:57:42.980] getCompletionData: Get previous token: 0.08391200006008148
+Info 422  [19:57:42.981] getCompletionsAtPosition: isCompletionListBlocker: 0.22763600014150143
+Info 423  [19:57:42.981] Returning an empty list because completion was requested in an invalid position.
+Info 424  [19:57:43.029] getCompletionData: Get current token: 0.008646000176668167
+Info 425  [19:57:43.030] getCompletionData: Is inside comment: 0.001856999471783638
+Info 426  [19:57:43.030] getCompletionData: Get previous token: 0.014528000727295876
+Info 427  [19:57:43.030] getCompletionsAtPosition: isCompletionListBlocker: 0.01374099962413311
+Info 428  [19:57:43.030] Returning an empty list because completion was requested in an invalid position.
+Info 429  [19:57:43.032] getCompletionData: Get current token: 0.008713999763131142
+Info 430  [19:57:43.032] getCompletionData: Is inside comment: 0.0017960015684366226
+Info 431  [19:57:43.032] getCompletionData: Get previous token: 0.021153999492526054
+Info 432  [19:57:43.032] getCompletionsAtPosition: isCompletionListBlocker: 0.01421399973332882
+Info 433  [19:57:43.032] Returning an empty list because completion was requested in an invalid position.
+Info 434  [19:57:43.054] getCompletionData: Get current token: 0.011668998748064041
+Info 435  [19:57:43.054] getCompletionData: Is inside comment: 0.002559000626206398
+Info 436  [19:57:43.054] getCompletionData: Get previous token: 0.01900400035083294
+Info 437  [19:57:43.054] getCompletionsAtPosition: isCompletionListBlocker: 0.013565000146627426
+Info 438  [19:57:43.054] Returning an empty list because completion was requested in an invalid position.
+Info 439  [19:57:43.532] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 440  [19:57:43.542] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 50 structureChanged: false structureIsReused:: Completely Elapsed: 9.588374000042677ms
+Info 441  [19:57:43.542] Different program with same set of files
+Info 442  [19:57:43.543] getCompletionData: Get current token: 0.037324000149965286
+Info 443  [19:57:43.543] getCompletionData: Is inside comment: 0.0066919997334480286
+Info 444  [19:57:43.543] getCompletionData: Get previous token: 0.0720049999654293
+Info 445  [19:57:43.543] getCompletionsAtPosition: isCompletionListBlocker: 0.03676700033247471
+Info 446  [19:57:43.543] Returning an empty list because completion was requested in an invalid position.
+Info 447  [19:57:43.601] getCompletionData: Get current token: 0.009103000164031982
+Info 448  [19:57:43.601] getCompletionData: Is inside comment: 0.002563999965786934
+Info 449  [19:57:43.601] getCompletionData: Get previous token: 0.01520100049674511
+Info 450  [19:57:43.601] getCompletionsAtPosition: isCompletionListBlocker: 0.013478999957442284
+Info 451  [19:57:43.601] Returning an empty list because completion was requested in an invalid position.
+Info 452  [19:57:43.601] getCompletionData: Get current token: 0.007325999438762665
+Info 453  [19:57:43.601] getCompletionData: Is inside comment: 0.0015150010585784912
+Info 454  [19:57:43.601] getCompletionData: Get previous token: 0.01796100102365017
+Info 455  [19:57:43.601] getCompletionsAtPosition: isCompletionListBlocker: 0.004962999373674393
+Info 456  [19:57:43.601] Returning an empty list because completion was requested in an invalid position.
+Info 457  [19:57:43.601] getCompletionData: Get current token: 0.007252000272274017
+Info 458  [19:57:43.601] getCompletionData: Is inside comment: 0.0013260003179311752
+Info 459  [19:57:43.601] getCompletionData: Get previous token: 0.013219000771641731
+Info 460  [19:57:43.601] getCompletionsAtPosition: isCompletionListBlocker: 0.0033139996230602264
+Info 461  [19:57:43.601] Returning an empty list because completion was requested in an invalid position.
+Info 462  [19:57:43.602] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 463  [19:57:43.605] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 51 structureChanged: false structureIsReused:: Completely Elapsed: 3.6975400000810623ms
+Info 464  [19:57:43.605] Different program with same set of files
+Info 465  [19:57:43.947] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 466  [19:57:43.957] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 52 structureChanged: false structureIsReused:: Completely Elapsed: 9.034831000491977ms
+Info 467  [19:57:43.957] Different program with same set of files
+Info 468  [19:57:43.957] getCompletionData: Get current token: 0.03306899964809418
+Info 469  [19:57:43.957] getCompletionData: Is inside comment: 0.005937999114394188
+Info 470  [19:57:43.958] getCompletionData: Get previous token: 0.0722039993852377
+Info 471  [19:57:43.958] getCompletionsAtPosition: isCompletionListBlocker: 0.02918500080704689
+Info 472  [19:57:43.958] Returning an empty list because completion was requested in an invalid position.
+Info 473  [19:57:43.959] getCompletionData: Get current token: 0.04200799949467182
+Info 474  [19:57:43.959] getCompletionData: Is inside comment: 0.008586999028921127
+Info 475  [19:57:43.959] getCompletionData: Get previous token: 0.09708199836313725
+Info 476  [19:57:43.959] getCompletionsAtPosition: isCompletionListBlocker: 0.024507999420166016
+Info 477  [19:57:43.959] Returning an empty list because completion was requested in an invalid position.
+Info 478  [19:57:43.960] getCompletionData: Get current token: 0.0444169994443655
+Info 479  [19:57:43.960] getCompletionData: Is inside comment: 0.007819000631570816
+Info 480  [19:57:43.960] getCompletionData: Get previous token: 0.0757800005376339
+Info 481  [19:57:43.960] getCompletionsAtPosition: isCompletionListBlocker: 0.022509999573230743
+Info 482  [19:57:43.960] Returning an empty list because completion was requested in an invalid position.
+Info 483  [19:57:44.017] getCompletionData: Get current token: 0.011416001245379448
+Info 484  [19:57:44.017] getCompletionData: Is inside comment: 0.0028180014342069626
+Info 485  [19:57:44.017] getCompletionData: Get previous token: 0.022262999787926674
+Info 486  [19:57:44.017] getCompletionsAtPosition: isCompletionListBlocker: 0.012237999588251114
+Info 487  [19:57:44.017] Returning an empty list because completion was requested in an invalid position.
+Info 488  [19:57:44.017] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 489  [19:57:44.023] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 53 structureChanged: false structureIsReused:: Completely Elapsed: 6.045654999092221ms
+Info 490  [19:57:44.023] Different program with same set of files
+Info 491  [19:57:44.174] getCompletionData: Get current token: 0.010821999981999397
+Info 492  [19:57:44.174] getCompletionData: Is inside comment: 0.0020979996770620346
+Info 493  [19:57:44.174] getCompletionData: Get previous token: 0.021717000752687454
+Info 494  [19:57:44.174] getCompletionsAtPosition: isCompletionListBlocker: 0.018904998898506165
+Info 495  [19:57:44.174] Returning an empty list because completion was requested in an invalid position.
+Info 496  [19:57:44.176] getCompletionData: Get current token: 0.010018998757004738
+Info 497  [19:57:44.176] getCompletionData: Is inside comment: 0.01428999938070774
+Info 498  [19:57:44.176] getCompletionData: Get previous token: 0.04611399956047535
+Info 499  [19:57:44.176] getCompletionsAtPosition: isCompletionListBlocker: 0.05103299953043461
+Info 500  [19:57:44.176] Returning an empty list because completion was requested in an invalid position.
+Info 501  [19:57:44.180] getCompletionData: Get current token: 0.012331999838352203
+Info 502  [19:57:44.180] getCompletionData: Is inside comment: 0.0034989994019269943
+Info 503  [19:57:44.180] getCompletionData: Get previous token: 0.022249000146985054
+Info 504  [19:57:44.180] getCompletionsAtPosition: isCompletionListBlocker: 0.018307998776435852
+Info 505  [19:57:44.180] Returning an empty list because completion was requested in an invalid position.
+Info 506  [19:57:44.184] getCompletionData: Get current token: 0.013104001060128212
+Info 507  [19:57:44.184] getCompletionData: Is inside comment: 0.0029069986194372177
+Info 508  [19:57:44.184] getCompletionData: Get previous token: 0.026396000757813454
+Info 509  [19:57:44.184] getCompletionsAtPosition: isCompletionListBlocker: 0.015210000798106194
+Info 510  [19:57:44.184] Returning an empty list because completion was requested in an invalid position.
+Info 511  [19:57:45.416] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 512  [19:57:45.433] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 54 structureChanged: false structureIsReused:: Completely Elapsed: 17.220337999984622ms
+Info 513  [19:57:45.434] Different program with same set of files
+Info 514  [19:57:46.659] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 515  [19:57:46.668] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 55 structureChanged: false structureIsReused:: Completely Elapsed: 9.285391999408603ms
+Info 516  [19:57:46.668] Different program with same set of files
+Info 517  [19:57:46.669] getCompletionData: Get current token: 0.030501000583171844
+Info 518  [19:57:46.669] getCompletionData: Is inside comment: 0.006683001294732094
+Info 519  [19:57:46.669] getCompletionData: Get previous token: 0.07371599972248077
+Info 520  [19:57:46.670] getCompletionsAtPosition: isCompletionListBlocker: 0.02966899983584881
+Info 521  [19:57:46.670] Returning an empty list because completion was requested in an invalid position.
+Info 522  [19:57:46.733] getCompletionData: Get current token: 0.014414001256227493
+Info 523  [19:57:46.733] getCompletionData: Is inside comment: 0.0035170000046491623
+Info 524  [19:57:46.733] getCompletionData: Get previous token: 0.08979400061070919
+Info 525  [19:57:46.733] getCompletionsAtPosition: isCompletionListBlocker: 0.012638000771403313
+Info 526  [19:57:46.733] Returning an empty list because completion was requested in an invalid position.
+Info 527  [19:57:46.734] getCompletionData: Get current token: 0.005820998921990395
+Info 528  [19:57:46.734] getCompletionData: Is inside comment: 0.0019080005586147308
+Info 529  [19:57:46.734] getCompletionData: Get previous token: 0.019999999552965164
+Info 530  [19:57:46.734] getCompletionsAtPosition: isCompletionListBlocker: 0.0051850005984306335
+Info 531  [19:57:46.734] Returning an empty list because completion was requested in an invalid position.
+Info 532  [19:57:46.734] getCompletionData: Get current token: 0.007062999531626701
+Info 533  [19:57:46.734] getCompletionData: Is inside comment: 0.001358000561594963
+Info 534  [19:57:46.734] getCompletionData: Get previous token: 0.014111999422311783
+Info 535  [19:57:46.734] getCompletionsAtPosition: isCompletionListBlocker: 0.10097800008952618
+Info 536  [19:57:46.734] Returning an empty list because completion was requested in an invalid position.
+Info 537  [19:57:46.738] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 538  [19:57:46.745] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 56 structureChanged: false structureIsReused:: Completely Elapsed: 6.594986001029611ms
+Info 539  [19:57:46.745] Different program with same set of files
+Info 540  [19:57:47.268] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 541  [19:57:47.278] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 57 structureChanged: false structureIsReused:: Completely Elapsed: 9.459742000326514ms
+Info 542  [19:57:47.278] Different program with same set of files
+Info 543  [19:57:48.070] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 544  [19:57:48.080] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 58 structureChanged: false structureIsReused:: Completely Elapsed: 10.012257000431418ms
+Info 545  [19:57:48.081] Different program with same set of files
+Info 546  [19:57:48.832] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 547  [19:57:48.839] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 59 structureChanged: false structureIsReused:: Completely Elapsed: 6.163875000551343ms
+Info 548  [19:57:48.839] Different program with same set of files
+Info 549  [19:57:48.839] getCompletionData: Get current token: 0.008131999522447586
+Info 550  [19:57:48.839] getCompletionData: Is inside comment: 0.0016199983656406403
+Info 551  [19:57:48.839] getCompletionData: Get previous token: 0.01926099881529808
+Info 552  [19:57:48.839] getCompletionsAtPosition: isCompletionListBlocker: 0.01670599915087223
+Info 553  [19:57:48.839] Returning an empty list because completion was requested in an invalid position.
+Info 554  [19:57:48.879] getCompletionData: Get current token: 0.006378998979926109
+Info 555  [19:57:48.879] getCompletionData: Is inside comment: 0.001732001081109047
+Info 556  [19:57:48.879] getCompletionData: Get previous token: 0.025252999737858772
+Info 557  [19:57:48.879] getCompletionsAtPosition: isCompletionListBlocker: 0.06822500005364418
+Info 558  [19:57:48.879] Returning an empty list because completion was requested in an invalid position.
+Info 559  [19:57:48.883] getCompletionData: Get current token: 0.006347000598907471
+Info 560  [19:57:48.883] getCompletionData: Is inside comment: 0.002005999907851219
+Info 561  [19:57:48.883] getCompletionData: Get previous token: 0.014751000329852104
+Info 562  [19:57:48.883] getCompletionsAtPosition: isCompletionListBlocker: 0.016778001561760902
+Info 563  [19:57:48.883] Returning an empty list because completion was requested in an invalid position.
+Info 564  [19:57:48.885] getCompletionData: Get current token: 0.006275000050663948
+Info 565  [19:57:48.885] getCompletionData: Is inside comment: 0.0017319992184638977
+Info 566  [19:57:48.885] getCompletionData: Get previous token: 0.013834001496434212
+Info 567  [19:57:48.885] getCompletionsAtPosition: isCompletionListBlocker: 0.0072390008717775345
+Info 568  [19:57:48.885] Returning an empty list because completion was requested in an invalid position.
+Info 569  [19:57:49.693] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 570  [19:57:49.699] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 60 structureChanged: false structureIsReused:: Completely Elapsed: 6.507657000795007ms
+Info 571  [19:57:49.699] Different program with same set of files
+Info 572  [19:57:49.700] getCompletionData: Get current token: 0.008009999990463257
+Info 573  [19:57:49.700] getCompletionData: Is inside comment: 0.0019549988210201263
+Info 574  [19:57:49.700] getCompletionData: Get previous token: 0.02024500072002411
+Info 575  [19:57:49.700] getCompletionsAtPosition: isCompletionListBlocker: 0.017605001106858253
+Info 576  [19:57:49.700] Returning an empty list because completion was requested in an invalid position.
+Info 577  [19:57:49.743] getCompletionData: Get current token: 0.006232000887393951
+Info 578  [19:57:49.744] getCompletionData: Is inside comment: 0.0018630009144544601
+Info 579  [19:57:49.744] getCompletionData: Get previous token: 0.013315999880433083
+Info 580  [19:57:49.744] getCompletionsAtPosition: isCompletionListBlocker: 0.013677000999450684
+Info 581  [19:57:49.744] Returning an empty list because completion was requested in an invalid position.
+Info 582  [19:57:49.744] getCompletionData: Get current token: 0.004312001168727875
+Info 583  [19:57:49.744] getCompletionData: Is inside comment: 0.001173999160528183
+Info 584  [19:57:49.744] getCompletionData: Get previous token: 0.012158000841736794
+Info 585  [19:57:49.744] getCompletionsAtPosition: isCompletionListBlocker: 0.004287000745534897
+Info 586  [19:57:49.744] Returning an empty list because completion was requested in an invalid position.
+Info 587  [19:57:49.744] getCompletionData: Get current token: 0.004245998337864876
+Info 588  [19:57:49.744] getCompletionData: Is inside comment: 0.0010749995708465576
+Info 589  [19:57:49.744] getCompletionData: Get previous token: 0.05513300001621246
+Info 590  [19:57:49.744] getCompletionsAtPosition: isCompletionListBlocker: 0.006314000114798546
+Info 591  [19:57:49.744] Returning an empty list because completion was requested in an invalid position.
+Info 592  [19:57:49.748] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 593  [19:57:49.755] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 61 structureChanged: false structureIsReused:: Completely Elapsed: 6.924074999988079ms
+Info 594  [19:57:49.755] Different program with same set of files
+Info 595  [19:57:50.084] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 596  [19:57:50.089] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 62 structureChanged: false structureIsReused:: Completely Elapsed: 4.946871999651194ms
+Info 597  [19:57:50.089] Different program with same set of files
+Info 598  [19:57:50.090] getCompletionData: Get current token: 0.00861399993300438
+Info 599  [19:57:50.090] getCompletionData: Is inside comment: 0.003049999475479126
+Info 600  [19:57:50.090] getCompletionData: Get previous token: 0.022842999547719955
+Info 601  [19:57:50.090] getCompletionsAtPosition: isCompletionListBlocker: 0.013119999319314957
+Info 602  [19:57:50.090] Returning an empty list because completion was requested in an invalid position.
+Info 603  [19:57:50.142] getCompletionData: Get current token: 0.006508000195026398
+Info 604  [19:57:50.142] getCompletionData: Is inside comment: 0.002186000347137451
+Info 605  [19:57:50.142] getCompletionData: Get previous token: 0.015606999397277832
+Info 606  [19:57:50.142] getCompletionsAtPosition: isCompletionListBlocker: 0.014285000041127205
+Info 607  [19:57:50.142] Returning an empty list because completion was requested in an invalid position.
+Info 608  [19:57:50.142] getCompletionData: Get current token: 0.004994001239538193
+Info 609  [19:57:50.142] getCompletionData: Is inside comment: 0.0014819987118244171
+Info 610  [19:57:50.142] getCompletionData: Get previous token: 0.06956100091338158
+Info 611  [19:57:50.142] getCompletionsAtPosition: isCompletionListBlocker: 0.00780700147151947
+Info 612  [19:57:50.142] Returning an empty list because completion was requested in an invalid position.
+Info 613  [19:57:50.142] getCompletionData: Get current token: 0.008898001164197922
+Info 614  [19:57:50.142] getCompletionData: Is inside comment: 0.002507999539375305
+Info 615  [19:57:50.142] getCompletionData: Get previous token: 0.024720000103116035
+Info 616  [19:57:50.142] getCompletionsAtPosition: isCompletionListBlocker: 0.005961999297142029
+Info 617  [19:57:50.142] Returning an empty list because completion was requested in an invalid position.
+Info 618  [19:57:50.147] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 619  [19:57:50.155] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 63 structureChanged: false structureIsReused:: Completely Elapsed: 8.375904001295567ms
+Info 620  [19:57:50.155] Different program with same set of files
+Info 621  [19:57:50.330] getCompletionData: Get current token: 0.008719999343156815
+Info 622  [19:57:50.330] getCompletionData: Is inside comment: 0.00217599980533123
+Info 623  [19:57:50.330] getCompletionData: Get previous token: 0.0225909985601902
+Info 624  [19:57:50.330] getCompletionsAtPosition: isCompletionListBlocker: 0.0164249986410141
+Info 625  [19:57:50.330] Returning an empty list because completion was requested in an invalid position.
+Info 626  [19:57:50.332] getCompletionData: Get current token: 0.005632000043988228
+Info 627  [19:57:50.332] getCompletionData: Is inside comment: 0.0017269998788833618
+Info 628  [19:57:50.332] getCompletionData: Get previous token: 0.011096000671386719
+Info 629  [19:57:50.332] getCompletionsAtPosition: isCompletionListBlocker: 0.007915999740362167
+Info 630  [19:57:50.332] Returning an empty list because completion was requested in an invalid position.
+Info 631  [19:57:50.333] getCompletionData: Get current token: 0.005280999466776848
+Info 632  [19:57:50.333] getCompletionData: Is inside comment: 0.001348000019788742
+Info 633  [19:57:50.333] getCompletionData: Get previous token: 0.010923000052571297
+Info 634  [19:57:50.333] getCompletionsAtPosition: isCompletionListBlocker: 0.006021000444889069
+Info 635  [19:57:50.333] Returning an empty list because completion was requested in an invalid position.
+Info 636  [19:57:50.334] getCompletionData: Get current token: 0.006696000695228577
+Info 637  [19:57:50.334] getCompletionData: Is inside comment: 0.0016520004719495773
+Info 638  [19:57:50.334] getCompletionData: Get previous token: 0.013311000540852547
+Info 639  [19:57:50.334] getCompletionsAtPosition: isCompletionListBlocker: 0.007109001278877258
+Info 640  [19:57:50.334] Returning an empty list because completion was requested in an invalid position.
+Info 641  [19:57:50.560] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 642  [19:57:50.568] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 64 structureChanged: false structureIsReused:: Completely Elapsed: 7.764172999188304ms
+Info 643  [19:57:50.568] Different program with same set of files
+Info 644  [19:57:51.605] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 645  [19:57:51.612] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 65 structureChanged: false structureIsReused:: Completely Elapsed: 6.168281000107527ms
+Info 646  [19:57:51.612] Different program with same set of files
+Info 647  [19:57:51.612] getCompletionData: Get current token: 0.007633000612258911
+Info 648  [19:57:51.612] getCompletionData: Is inside comment: 0.0016670003533363342
+Info 649  [19:57:51.612] getCompletionData: Get previous token: 0.01827399991452694
+Info 650  [19:57:51.612] getCompletionsAtPosition: isCompletionListBlocker: 0.009387001395225525
+Info 651  [19:57:51.612] Returning an empty list because completion was requested in an invalid position.
+Info 652  [19:57:51.649] getCompletionData: Get current token: 0.005327999591827393
+Info 653  [19:57:51.649] getCompletionData: Is inside comment: 0.0015760008245706558
+Info 654  [19:57:51.649] getCompletionData: Get previous token: 0.02747800014913082
+Info 655  [19:57:51.649] getCompletionsAtPosition: isCompletionListBlocker: 0.008828999474644661
+Info 656  [19:57:51.649] Returning an empty list because completion was requested in an invalid position.
+Info 657  [19:57:51.653] getCompletionData: Get current token: 0.00629500113427639
+Info 658  [19:57:51.653] getCompletionData: Is inside comment: 0.0018979981541633606
+Info 659  [19:57:51.653] getCompletionData: Get previous token: 0.012051999568939209
+Info 660  [19:57:51.653] getCompletionsAtPosition: isCompletionListBlocker: 0.00996599905192852
+Info 661  [19:57:51.653] Returning an empty list because completion was requested in an invalid position.
+Info 662  [19:57:51.654] getCompletionData: Get current token: 0.0050220005214214325
+Info 663  [19:57:51.654] getCompletionData: Is inside comment: 0.0012909993529319763
+Info 664  [19:57:51.654] getCompletionData: Get previous token: 0.010976999998092651
+Info 665  [19:57:51.654] getCompletionsAtPosition: isCompletionListBlocker: 0.0051940008997917175
+Info 666  [19:57:51.654] Returning an empty list because completion was requested in an invalid position.
+Info 667  [19:57:53.776] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 668  [19:57:53.782] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 66 structureChanged: false structureIsReused:: Completely Elapsed: 6.072623999789357ms
+Info 669  [19:57:53.783] Different program with same set of files
+Info 670  [19:57:54.201] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 671  [19:57:54.210] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 67 structureChanged: false structureIsReused:: Completely Elapsed: 8.560141000896692ms
+Info 672  [19:57:54.210] Different program with same set of files
+Info 673  [19:57:54.211] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 674  [19:57:54.220] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 68 structureChanged: false structureIsReused:: Completely Elapsed: 9.220644000917673ms
+Info 675  [19:57:54.220] Different program with same set of files
+Info 676  [19:57:54.582] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 677  [19:57:54.590] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 69 structureChanged: false structureIsReused:: Completely Elapsed: 8.315855000168085ms
+Info 678  [19:57:54.590] Different program with same set of files
+Info 679  [19:57:54.638] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 680  [19:57:54.641] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 70 structureChanged: false structureIsReused:: Completely Elapsed: 2.746016001328826ms
+Info 681  [19:57:54.641] Different program with same set of files
+Info 682  [19:57:55.990] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 683  [19:57:55.997] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 71 structureChanged: false structureIsReused:: Completely Elapsed: 7.051232999190688ms
+Info 684  [19:57:56.009] Different program with same set of files
+Info 685  [19:57:56.541] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 686  [19:57:56.551] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 72 structureChanged: false structureIsReused:: Completely Elapsed: 9.903293000534177ms
+Info 687  [19:57:56.551] Different program with same set of files
+Info 688  [19:57:56.552] getCompletionData: Get current token: 0.04315600171685219
+Info 689  [19:57:56.552] getCompletionData: Is inside comment: 0.00866599939763546
+Info 690  [19:57:56.552] getCompletionData: Get previous token: 0.09781999886035919
+Info 691  [19:57:56.552] getCompletionsAtPosition: isCompletionListBlocker: 0.030097000300884247
+Info 692  [19:57:56.552] Returning an empty list because completion was requested in an invalid position.
+Info 693  [19:57:56.602] getCompletionData: Get current token: 0.005715999752283096
+Info 694  [19:57:56.602] getCompletionData: Is inside comment: 0.0017770007252693176
+Info 695  [19:57:56.602] getCompletionData: Get previous token: 0.013043999671936035
+Info 696  [19:57:56.602] getCompletionsAtPosition: isCompletionListBlocker: 0.01301400177180767
+Info 697  [19:57:56.602] Returning an empty list because completion was requested in an invalid position.
+Info 698  [19:57:56.603] getCompletionData: Get current token: 0.004558999091386795
+Info 699  [19:57:56.603] getCompletionData: Is inside comment: 0.0009640008211135864
+Info 700  [19:57:56.603] getCompletionData: Get previous token: 0.01072699949145317
+Info 701  [19:57:56.603] getCompletionsAtPosition: isCompletionListBlocker: 0.003432000055909157
+Info 702  [19:57:56.603] Returning an empty list because completion was requested in an invalid position.
+Info 703  [19:57:56.603] getCompletionData: Get current token: 0.007263999432325363
+Info 704  [19:57:56.603] getCompletionData: Is inside comment: 0.001382000744342804
+Info 705  [19:57:56.603] getCompletionData: Get previous token: 0.021029001101851463
+Info 706  [19:57:56.603] getCompletionsAtPosition: isCompletionListBlocker: 0.004436999559402466
+Info 707  [19:57:56.603] Returning an empty list because completion was requested in an invalid position.
+Info 708  [19:57:56.603] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 709  [19:57:56.612] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 73 structureChanged: false structureIsReused:: Completely Elapsed: 8.431609999388456ms
+Info 710  [19:57:56.612] Different program with same set of files
+Info 711  [19:57:56.954] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 712  [19:57:56.962] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 74 structureChanged: false structureIsReused:: Completely Elapsed: 8.002673000097275ms
+Info 713  [19:57:56.962] Different program with same set of files
+Info 714  [19:57:56.963] getCompletionData: Get current token: 0.007478000596165657
+Info 715  [19:57:56.963] getCompletionData: Is inside comment: 0.001202000305056572
+Info 716  [19:57:56.963] getCompletionData: Get previous token: 0.018479999154806137
+Info 717  [19:57:56.963] getCompletionsAtPosition: isCompletionListBlocker: 0.008509000763297081
+Info 718  [19:57:56.963] Returning an empty list because completion was requested in an invalid position.
+Info 719  [19:57:56.998] getCompletionData: Get current token: 0.0049919988960027695
+Info 720  [19:57:56.998] getCompletionData: Is inside comment: 0.001358000561594963
+Info 721  [19:57:56.998] getCompletionData: Get previous token: 0.011114999651908875
+Info 722  [19:57:56.998] getCompletionsAtPosition: isCompletionListBlocker: 0.007671000435948372
+Info 723  [19:57:56.998] Returning an empty list because completion was requested in an invalid position.
+Info 724  [19:57:57.002] getCompletionData: Get current token: 0.04247100092470646
+Info 725  [19:57:57.002] getCompletionData: Is inside comment: 0.0017829984426498413
+Info 726  [19:57:57.002] getCompletionData: Get previous token: 0.023368999361991882
+Info 727  [19:57:57.002] getCompletionsAtPosition: isCompletionListBlocker: 0.01198599860072136
+Info 728  [19:57:57.002] Returning an empty list because completion was requested in an invalid position.
+Info 729  [19:57:57.003] getCompletionData: Get current token: 0.004530999809503555
+Info 730  [19:57:57.003] getCompletionData: Is inside comment: 0.0012289993464946747
+Info 731  [19:57:57.003] getCompletionData: Get previous token: 0.011526999995112419
+Info 732  [19:57:57.003] getCompletionsAtPosition: isCompletionListBlocker: 0.009144999086856842
+Info 733  [19:57:57.003] Returning an empty list because completion was requested in an invalid position.
+Info 734  [19:57:57.251] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 735  [19:57:57.260] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 75 structureChanged: false structureIsReused:: Completely Elapsed: 8.10355400107801ms
+Info 736  [19:57:57.260] Different program with same set of files
+Info 737  [19:57:57.261] getCompletionData: Get current token: 0.023953000083565712
+Info 738  [19:57:57.261] getCompletionData: Is inside comment: 0.004457000643014908
+Info 739  [19:57:57.261] getCompletionData: Get previous token: 0.05855800025165081
+Info 740  [19:57:57.261] getCompletionsAtPosition: isCompletionListBlocker: 0.02160399965941906
+Info 741  [19:57:57.261] Returning an empty list because completion was requested in an invalid position.
+Info 742  [19:57:57.305] getCompletionData: Get current token: 0.005255000665783882
+Info 743  [19:57:57.305] getCompletionData: Is inside comment: 0.0014929994940757751
+Info 744  [19:57:57.305] getCompletionData: Get previous token: 0.01240599900484085
+Info 745  [19:57:57.305] getCompletionsAtPosition: isCompletionListBlocker: 0.010206000879406929
+Info 746  [19:57:57.305] Returning an empty list because completion was requested in an invalid position.
+Info 747  [19:57:57.305] getCompletionData: Get current token: 0.004076000303030014
+Info 748  [19:57:57.305] getCompletionData: Is inside comment: 0.0008729994297027588
+Info 749  [19:57:57.305] getCompletionData: Get previous token: 0.010488001629710197
+Info 750  [19:57:57.305] getCompletionsAtPosition: isCompletionListBlocker: 0.0033369995653629303
+Info 751  [19:57:57.305] Returning an empty list because completion was requested in an invalid position.
+Info 752  [19:57:57.305] getCompletionData: Get current token: 0.006173999980092049
+Info 753  [19:57:57.305] getCompletionData: Is inside comment: 0.0008809994906187057
+Info 754  [19:57:57.305] getCompletionData: Get previous token: 0.010568000376224518
+Info 755  [19:57:57.306] getCompletionsAtPosition: isCompletionListBlocker: 0.0022840015590190887
+Info 756  [19:57:57.306] Returning an empty list because completion was requested in an invalid position.
+Info 757  [19:57:57.309] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 758  [19:57:57.315] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 76 structureChanged: false structureIsReused:: Completely Elapsed: 6.700563000515103ms
+Info 759  [19:57:57.316] Different program with same set of files
+Info 760  [19:57:58.004] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 761  [19:57:58.011] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 77 structureChanged: false structureIsReused:: Completely Elapsed: 7.407369999215007ms
+Info 762  [19:57:58.011] Different program with same set of files
+Info 763  [19:57:59.172] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 764  [19:57:59.180] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 78 structureChanged: false structureIsReused:: Completely Elapsed: 8.101763999089599ms
+Info 765  [19:57:59.180] Different program with same set of files
+Info 766  [19:57:59.181] getCompletionData: Get current token: 0.023210998624563217
+Info 767  [19:57:59.181] getCompletionData: Is inside comment: 0.004052998498082161
+Info 768  [19:57:59.181] getCompletionData: Get previous token: 0.05841900035738945
+Info 769  [19:57:59.181] getCompletionsAtPosition: isCompletionListBlocker: 0.01991800032556057
+Info 770  [19:57:59.181] Returning an empty list because completion was requested in an invalid position.
+Info 771  [19:57:59.221] getCompletionData: Get current token: 0.005576999858021736
+Info 772  [19:57:59.221] getCompletionData: Is inside comment: 0.00138000026345253
+Info 773  [19:57:59.221] getCompletionData: Get previous token: 0.011351000517606735
+Info 774  [19:57:59.221] getCompletionsAtPosition: isCompletionListBlocker: 0.008369000628590584
+Info 775  [19:57:59.221] Returning an empty list because completion was requested in an invalid position.
+Info 776  [19:57:59.225] getCompletionData: Get current token: 0.005441000685095787
+Info 777  [19:57:59.225] getCompletionData: Is inside comment: 0.001679999753832817
+Info 778  [19:57:59.225] getCompletionData: Get previous token: 0.014312000945210457
+Info 779  [19:57:59.225] getCompletionsAtPosition: isCompletionListBlocker: 0.010622000321745872
+Info 780  [19:57:59.225] Returning an empty list because completion was requested in an invalid position.
+Info 781  [19:57:59.226] getCompletionData: Get current token: 0.0048640016466379166
+Info 782  [19:57:59.226] getCompletionData: Is inside comment: 0.001186000183224678
+Info 783  [19:57:59.226] getCompletionData: Get previous token: 0.01623000018298626
+Info 784  [19:57:59.226] getCompletionsAtPosition: isCompletionListBlocker: 0.0065279994159936905
+Info 785  [19:57:59.226] Returning an empty list because completion was requested in an invalid position.
+Info 786  [19:58:00.055] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 787  [19:58:00.062] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 79 structureChanged: false structureIsReused:: Completely Elapsed: 6.006306000053883ms
+Info 788  [19:58:00.062] Different program with same set of files
+Info 789  [19:58:00.062] getCompletionData: Get current token: 0.007390998303890228
+Info 790  [19:58:00.062] getCompletionData: Is inside comment: 0.0013150013983249664
+Info 791  [19:58:00.062] getCompletionData: Get previous token: 0.02133299969136715
+Info 792  [19:58:00.062] getCompletionsAtPosition: isCompletionListBlocker: 0.01158900000154972
+Info 793  [19:58:00.062] Returning an empty list because completion was requested in an invalid position.
+Info 794  [19:58:00.110] getCompletionData: Get current token: 0.005767999216914177
+Info 795  [19:58:00.110] getCompletionData: Is inside comment: 0.001849999651312828
+Info 796  [19:58:00.110] getCompletionData: Get previous token: 0.014431999996304512
+Info 797  [19:58:00.110] getCompletionsAtPosition: isCompletionListBlocker: 0.00968099944293499
+Info 798  [19:58:00.110] Returning an empty list because completion was requested in an invalid position.
+Info 799  [19:58:00.114] getCompletionData: Get current token: 0.005512000992894173
+Info 800  [19:58:00.114] getCompletionData: Is inside comment: 0.0016249995678663254
+Info 801  [19:58:00.114] getCompletionData: Get previous token: 0.013652000576257706
+Info 802  [19:58:00.115] getCompletionsAtPosition: isCompletionListBlocker: 0.011089000850915909
+Info 803  [19:58:00.115] Returning an empty list because completion was requested in an invalid position.
+Info 804  [19:58:00.116] getCompletionData: Get current token: 0.004772000014781952
+Info 805  [19:58:00.116] getCompletionData: Is inside comment: 0.0015719998627901077
+Info 806  [19:58:00.116] getCompletionData: Get previous token: 0.011816998943686485
+Info 807  [19:58:00.116] getCompletionsAtPosition: isCompletionListBlocker: 0.009981000795960426
+Info 808  [19:58:00.116] Returning an empty list because completion was requested in an invalid position.
+Info 809  [19:58:00.599] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 810  [19:58:00.607] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 80 structureChanged: false structureIsReused:: Completely Elapsed: 8.266164999455214ms
+Info 811  [19:58:00.607] Different program with same set of files
+Info 812  [19:58:00.608] getCompletionData: Get current token: 0.022717999294400215
+Info 813  [19:58:00.608] getCompletionData: Is inside comment: 0.003947000950574875
+Info 814  [19:58:00.608] getCompletionData: Get previous token: 0.06187800131738186
+Info 815  [19:58:00.608] getCompletionsAtPosition: isCompletionListBlocker: 0.020207999274134636
+Info 816  [19:58:00.608] Returning an empty list because completion was requested in an invalid position.
+Info 817  [19:58:00.646] getCompletionData: Get current token: 0.0046820007264614105
+Info 818  [19:58:00.646] getCompletionData: Is inside comment: 0.001194000244140625
+Info 819  [19:58:00.646] getCompletionData: Get previous token: 0.011200999841094017
+Info 820  [19:58:00.646] getCompletionsAtPosition: isCompletionListBlocker: 0.008322998881340027
+Info 821  [19:58:00.646] Returning an empty list because completion was requested in an invalid position.
+Info 822  [19:58:00.650] getCompletionData: Get current token: 0.004594000056385994
+Info 823  [19:58:00.650] getCompletionData: Is inside comment: 0.0012669991701841354
+Info 824  [19:58:00.650] getCompletionData: Get previous token: 0.0109810009598732
+Info 825  [19:58:00.650] getCompletionsAtPosition: isCompletionListBlocker: 0.010999999940395355
+Info 826  [19:58:00.650] Returning an empty list because completion was requested in an invalid position.
+Info 827  [19:58:00.652] getCompletionData: Get current token: 0.004906000569462776
+Info 828  [19:58:00.652] getCompletionData: Is inside comment: 0.0011700000613927841
+Info 829  [19:58:00.652] getCompletionData: Get previous token: 0.012056998908519745
+Info 830  [19:58:00.652] getCompletionsAtPosition: isCompletionListBlocker: 0.0063489992171525955
+Info 831  [19:58:00.652] Returning an empty list because completion was requested in an invalid position.
+Info 832  [19:58:01.383] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 833  [19:58:01.389] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 81 structureChanged: false structureIsReused:: Completely Elapsed: 6.205649999901652ms
+Info 834  [19:58:01.389] Different program with same set of files
+Info 835  [19:58:01.389] getCompletionData: Get current token: 0.006884999573230743
+Info 836  [19:58:01.389] getCompletionData: Is inside comment: 0.0013420004397630692
+Info 837  [19:58:01.390] getCompletionData: Get previous token: 0.016982998698949814
+Info 838  [19:58:01.390] getCompletionsAtPosition: isCompletionListBlocker: 0.01054999977350235
+Info 839  [19:58:01.390] Returning an empty list because completion was requested in an invalid position.
+Info 840  [19:58:01.430] getCompletionData: Get current token: 0.004629001021385193
+Info 841  [19:58:01.430] getCompletionData: Is inside comment: 0.0013600010424852371
+Info 842  [19:58:01.430] getCompletionData: Get previous token: 0.011125000193715096
+Info 843  [19:58:01.430] getCompletionsAtPosition: isCompletionListBlocker: 0.00694500096142292
+Info 844  [19:58:01.430] Returning an empty list because completion was requested in an invalid position.
+Info 845  [19:58:01.430] getCompletionData: Get current token: 0.003727000206708908
+Info 846  [19:58:01.430] getCompletionData: Is inside comment: 0.000815998762845993
+Info 847  [19:58:01.430] getCompletionData: Get previous token: 0.015890000388026237
+Info 848  [19:58:01.430] getCompletionsAtPosition: isCompletionListBlocker: 0.003427000716328621
+Info 849  [19:58:01.430] Returning an empty list because completion was requested in an invalid position.
+Info 850  [19:58:01.430] getCompletionData: Get current token: 0.00400799885392189
+Info 851  [19:58:01.430] getCompletionData: Is inside comment: 0.000864000990986824
+Info 852  [19:58:01.430] getCompletionData: Get previous token: 0.010211000218987465
+Info 853  [19:58:01.430] getCompletionsAtPosition: isCompletionListBlocker: 0.0022829994559288025
+Info 854  [19:58:01.430] Returning an empty list because completion was requested in an invalid position.
+Info 855  [19:58:01.434] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 856  [19:58:01.440] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 82 structureChanged: false structureIsReused:: Completely Elapsed: 6.297857999801636ms
+Info 857  [19:58:01.440] Different program with same set of files
+Info 858  [19:58:01.604] getCompletionData: Get current token: 0.02024800144135952
+Info 859  [19:58:01.604] getCompletionData: Is inside comment: 0.004373999312520027
+Info 860  [19:58:01.604] getCompletionData: Get previous token: 0.06355799920856953
+Info 861  [19:58:01.604] getCompletionsAtPosition: isCompletionListBlocker: 0.023364000022411346
+Info 862  [19:58:01.604] Returning an empty list because completion was requested in an invalid position.
+Info 863  [19:58:01.609] getCompletionData: Get current token: 0.015948999673128128
+Info 864  [19:58:01.609] getCompletionData: Is inside comment: 0.003963999450206757
+Info 865  [19:58:01.609] getCompletionData: Get previous token: 0.038927000015974045
+Info 866  [19:58:01.609] getCompletionsAtPosition: isCompletionListBlocker: 0.016847999766469002
+Info 867  [19:58:01.609] Returning an empty list because completion was requested in an invalid position.
+Info 868  [19:58:01.617] getCompletionData: Get current token: 0.015370000153779984
+Info 869  [19:58:01.617] getCompletionData: Is inside comment: 0.004207000136375427
+Info 870  [19:58:01.617] getCompletionData: Get previous token: 0.04028500057756901
+Info 871  [19:58:01.618] getCompletionsAtPosition: isCompletionListBlocker: 0.019950000569224358
+Info 872  [19:58:01.618] Returning an empty list because completion was requested in an invalid position.
+Info 873  [19:58:01.642] getCompletionData: Get current token: 0.01763800159096718
+Info 874  [19:58:01.642] getCompletionData: Is inside comment: 0.004743000492453575
+Info 875  [19:58:01.642] getCompletionData: Get previous token: 0.04251700080931187
+Info 876  [19:58:01.642] getCompletionsAtPosition: isCompletionListBlocker: 0.022774001583456993
+Info 877  [19:58:01.642] Returning an empty list because completion was requested in an invalid position.
+Info 878  [19:58:02.933] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 879  [19:58:02.941] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 83 structureChanged: false structureIsReused:: Completely Elapsed: 8.060719000175595ms
+Info 880  [19:58:02.941] Different program with same set of files
+Info 881  [19:58:02.980] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 882  [19:58:02.983] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 84 structureChanged: false structureIsReused:: Completely Elapsed: 2.8422070015221834ms
+Info 883  [19:58:02.983] Different program with same set of files
+Info 884  [19:58:04.106] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 885  [19:58:04.113] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 85 structureChanged: false structureIsReused:: Completely Elapsed: 7.098697001114488ms
+Info 886  [19:58:04.113] Different program with same set of files
+Info 887  [19:58:04.114] getCompletionData: Get current token: 0.015839001163840294
+Info 888  [19:58:04.114] getCompletionData: Is inside comment: 0.0034970007836818695
+Info 889  [19:58:04.114] getCompletionData: Get previous token: 0.053053999319672585
+Info 890  [19:58:04.114] getCompletionsAtPosition: isCompletionListBlocker: 0.015413999557495117
+Info 891  [19:58:04.114] Returning an empty list because completion was requested in an invalid position.
+Info 892  [19:58:04.150] getCompletionData: Get current token: 0.0044989995658397675
+Info 893  [19:58:04.150] getCompletionData: Is inside comment: 0.001202000305056572
+Info 894  [19:58:04.150] getCompletionData: Get previous token: 0.01133899949491024
+Info 895  [19:58:04.150] getCompletionsAtPosition: isCompletionListBlocker: 0.008628999814391136
+Info 896  [19:58:04.150] Returning an empty list because completion was requested in an invalid position.
+Info 897  [19:58:04.150] getCompletionData: Get current token: 0.004075998440384865
+Info 898  [19:58:04.150] getCompletionData: Is inside comment: 0.0009790007025003433
+Info 899  [19:58:04.150] getCompletionData: Get previous token: 0.010642999783158302
+Info 900  [19:58:04.151] getCompletionsAtPosition: isCompletionListBlocker: 0.0037180017679929733
+Info 901  [19:58:04.151] Returning an empty list because completion was requested in an invalid position.
+Info 902  [19:58:04.151] getCompletionData: Get current token: 0.0039889998733997345
+Info 903  [19:58:04.151] getCompletionData: Is inside comment: 0.000832999125123024
+Info 904  [19:58:04.151] getCompletionData: Get previous token: 0.010130999609827995
+Info 905  [19:58:04.151] getCompletionsAtPosition: isCompletionListBlocker: 0.0021890010684728622
+Info 906  [19:58:04.151] Returning an empty list because completion was requested in an invalid position.
+Info 907  [19:58:04.497] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 908  [19:58:04.505] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 86 structureChanged: false structureIsReused:: Completely Elapsed: 7.806363999843597ms
+Info 909  [19:58:04.505] Different program with same set of files
+Info 910  [19:58:04.506] getCompletionData: Get current token: 0.024807000532746315
+Info 911  [19:58:04.506] getCompletionData: Is inside comment: 0.005113000050187111
+Info 912  [19:58:04.507] getCompletionData: Get previous token: 0.16217299923300743
+Info 913  [19:58:04.507] getCompletionsAtPosition: isCompletionListBlocker: 0.030791999772191048
+Info 914  [19:58:04.507] Returning an empty list because completion was requested in an invalid position.
+Info 915  [19:58:04.546] getCompletionData: Get current token: 0.00522099994122982
+Info 916  [19:58:04.546] getCompletionData: Is inside comment: 0.00151900015771389
+Info 917  [19:58:04.546] getCompletionData: Get previous token: 0.01214900054037571
+Info 918  [19:58:04.546] getCompletionsAtPosition: isCompletionListBlocker: 0.008953001350164413
+Info 919  [19:58:04.546] Returning an empty list because completion was requested in an invalid position.
+Info 920  [19:58:04.550] getCompletionData: Get current token: 0.005199998617172241
+Info 921  [19:58:04.550] getCompletionData: Is inside comment: 0.001542000100016594
+Info 922  [19:58:04.550] getCompletionData: Get previous token: 0.012973999604582787
+Info 923  [19:58:04.550] getCompletionsAtPosition: isCompletionListBlocker: 0.011385999619960785
+Info 924  [19:58:04.550] Returning an empty list because completion was requested in an invalid position.
+Info 925  [19:58:04.552] getCompletionData: Get current token: 0.006060998886823654
+Info 926  [19:58:04.552] getCompletionData: Is inside comment: 0.001528000459074974
+Info 927  [19:58:04.552] getCompletionData: Get previous token: 0.015170000493526459
+Info 928  [19:58:04.552] getCompletionsAtPosition: isCompletionListBlocker: 0.00877399928867817
+Info 929  [19:58:04.552] Returning an empty list because completion was requested in an invalid position.
+Info 930  [19:58:04.932] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 931  [19:58:04.937] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 87 structureChanged: false structureIsReused:: Completely Elapsed: 5.43058199994266ms
+Info 932  [19:58:04.937] Different program with same set of files
+Info 933  [19:58:04.938] getCompletionData: Get current token: 0.006318999454379082
+Info 934  [19:58:04.938] getCompletionData: Is inside comment: 0.001365000382065773
+Info 935  [19:58:04.938] getCompletionData: Get previous token: 0.016176000237464905
+Info 936  [19:58:04.938] getCompletionsAtPosition: isCompletionListBlocker: 0.010539000853896141
+Info 937  [19:58:04.938] Returning an empty list because completion was requested in an invalid position.
+Info 938  [19:58:04.974] getCompletionData: Get current token: 0.005123000591993332
+Info 939  [19:58:04.974] getCompletionData: Is inside comment: 0.0013739988207817078
+Info 940  [19:58:04.974] getCompletionData: Get previous token: 0.011202000081539154
+Info 941  [19:58:04.974] getCompletionsAtPosition: isCompletionListBlocker: 0.00911100022494793
+Info 942  [19:58:04.974] Returning an empty list because completion was requested in an invalid position.
+Info 943  [19:58:04.978] getCompletionData: Get current token: 0.0051639992743730545
+Info 944  [19:58:04.978] getCompletionData: Is inside comment: 0.0014260001480579376
+Info 945  [19:58:04.978] getCompletionData: Get previous token: 0.012001000344753265
+Info 946  [19:58:04.978] getCompletionsAtPosition: isCompletionListBlocker: 0.010276000946760178
+Info 947  [19:58:04.978] Returning an empty list because completion was requested in an invalid position.
+Info 948  [19:58:04.979] getCompletionData: Get current token: 0.004980999976396561
+Info 949  [19:58:04.979] getCompletionData: Is inside comment: 0.0012129992246627808
+Info 950  [19:58:04.979] getCompletionData: Get previous token: 0.011301999911665916
+Info 951  [19:58:04.979] getCompletionsAtPosition: isCompletionListBlocker: 0.00755000114440918
+Info 952  [19:58:04.979] Returning an empty list because completion was requested in an invalid position.
+Info 953  [19:58:25.335] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 954  [19:58:25.335] Elapsed:: 0.1321319993585348ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 955  [19:58:25.338] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/gnsEryWPn6HvsNeHLOGVa :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 956  [19:58:25.338] Elapsed:: 0.12176300026476383ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/gnsEryWPn6HvsNeHLOGVa :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 957  [19:58:25.352] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages/api :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 958  [19:58:25.353] Elapsed:: 0.12028699927031994ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages/api :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 959  [19:58:25.353] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 960  [19:58:25.353] Elapsed:: 0.06625100038945675ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 961  [19:58:25.354] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 962  [19:58:25.354] Elapsed:: 0.07848899997770786ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server/pages :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 963  [19:58:25.355] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 964  [19:58:25.355] Elapsed:: 0.06631899997591972ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static/chunks :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 965  [19:58:25.355] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 966  [19:58:25.355] Elapsed:: 0.05138400010764599ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/server :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 967  [19:58:25.356] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 968  [19:58:25.356] Elapsed:: 0.0721180010586977ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint/.next/static :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 969  [19:58:25.608] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 970  [19:58:25.609] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 88 structureChanged: false structureIsReused:: Completely Elapsed: 0.32403100095689297ms
+Info 971  [19:58:27.857] Before ensureProjectForOpenFiles:
+Info 972  [19:58:27.858] After ensureProjectForOpenFiles:
+Info 973  [19:58:27.858] got projects updated in background, updating diagnostics for /home/tsotetsi/Desktop/stint/env-config.js,/home/tsotetsi/Desktop/stint/next.config.js,/home/tsotetsi/Desktop/stint/pages/index.js
+Info 974  [19:58:28.178] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 975  [19:58:28.178] Elapsed:: 0.07453600130975246ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/stint :: WatchInfo: /home/tsotetsi/Desktop/stint 1 undefined Config: /home/tsotetsi/Desktop/stint/jsconfig.json WatchType: Wild card directory
+Info 976  [19:58:28.250] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json
+Info 977  [19:58:28.250] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/stint/jsconfig.json Version: 89 structureChanged: false structureIsReused:: Completely Elapsed: 0.31859599985182285ms
+Info 978  [19:58:30.680] Before ensureProjectForOpenFiles:
+Info 979  [19:58:30.680] After ensureProjectForOpenFiles:
+Info 980  [19:58:30.680] got projects updated in background, updating diagnostics for /home/tsotetsi/Desktop/stint/env-config.js,/home/tsotetsi/Desktop/stint/next.config.js,/home/tsotetsi/Desktop/stint/pages/index.js
